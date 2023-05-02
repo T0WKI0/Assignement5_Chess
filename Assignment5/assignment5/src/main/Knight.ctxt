@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Knight
+comment0.text=\r\n\ The\ Knight\ class\ is\ an\ extention\ of\ the\ abstract\ class\ ChessPiece.\ It\ uses\ the\r\n\ ChessPiece\ constructor\ and\ implements\ the\ canMove(),\ canCapture(),\ and\ toString()\r\n\ methods\ for\ the\ Knight\ class.\r\n\r\n\ @author\ (Melvin\ Kuchefski)\r\n\ @version\ (4.1.23)\r\n
+comment1.params=col\ row
+comment1.target=boolean\ canMove(char,\ int)
+comment1.text=\r\n\ Returns\ true\ if\ the\ Knight\ can\ legally\ move\ to\ the\ given\ position,\ \r\n\ false\ otherwise.\r\n\ \r\n\ @param\ \ \ col\ the\ column\ position\ of\ the\ chess\ piece\r\n\ @param\ \ \ row\ the\ row\ position\ of\ the\ chess\ piece\r\n\ @return\ \ true\ if\ Knight\ can\ legally\ move\ to\ the\ given\ position,\r\n\ \ \ \ \ \ \ \ \ \ false\ otherwise\r\n
+comment2.params=piece
+comment2.target=boolean\ canCapture(ChessPiece)
+comment2.text=\r\n\ Returns\ true\ if\ another\ given\ chess\ piece\ can\ be\ captured\ legally\ by\ the\ Knight,\r\n\ false\ otherwise.\r\n\ \r\n\ @param\ \ \ piece\ \ \ another\ ChessPiece\ object\r\n\ @return\ \ true\ if\ the\ other\ given\ chess\ piece\ can\ be\ captured\ legally\ by\ Knight,\r\n\ \ \ \ \ \ \ \ \ \ false\ otherwise\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ string\ representing\ the\ color\ and\ type\ of\ chess\ piece\ (Knight).\r\n\ \r\n\ @return\ string\ representation\ of\ the\ color\ and\ type\ of\ chess\ piece\ (Knight).\r\n
+numComments=4
